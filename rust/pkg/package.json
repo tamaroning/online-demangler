@@ -1,0 +1,16 @@
+{
+  "name": "rustc-demangle",
+  "version": "0.1.0",
+  "files": [
+    "rustc_demangle_bg.wasm",
+    "rustc_demangle.js",
+    "rustc_demangle_bg.js",
+    "rustc_demangle.d.ts"
+  ],
+  "module": "rustc_demangle.js",
+  "types": "rustc_demangle.d.ts",
+  "sideEffects": [
+    "./rustc_demangle.js",
+    "./snippets/*"
+  ]
+}
