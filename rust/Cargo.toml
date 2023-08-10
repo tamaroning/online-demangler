@@ -1,5 +1,5 @@
 [package]
-name = "rustc-online-demangler-lib"
+name = "rustc-demangle"
 version = "0.1.0"
 edition = "2021"
 
