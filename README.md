@@ -1,8 +1,11 @@
 # Online Demangler
 
-WIP
+Symbol demanlgler runs on your web blowser.
+It only supports Rust symbols for now.
 
-## Build or install dependencies
+Visit https://online-demangler-iv5u2bxxb-tamaroning.vercel.app/
+
+## Build
 
 ```bash
 git clone <This repo>
