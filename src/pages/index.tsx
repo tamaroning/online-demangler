@@ -10,14 +10,16 @@ export default function Home() {
     <>
       {/*<main className={styles.main}>*/}
       <h1>
-        Online Rustc Demangler
+        Online Rust Demangler
       </h1 >
-
+      <a href="https://github.com/tamaroning/online-demangler">GitHub</a>
       <div>
         <label>
-          Mangled Symbol:
+          Input Symbol
         </label>
-        <textarea name={mangledInput} onChange={(e) => { setMangledInput(e.target.value); }} />
+      </div>
+      <div>
+        <textarea name={mangledInput} onChange={(e) => { setMangledInput(e.target.value); }} placeholder='_RNvNtCs1234_7mycrate3foo3bar' />
       </div>
       <div>
         <label>
